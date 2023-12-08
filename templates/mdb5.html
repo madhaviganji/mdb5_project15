@@ -5,12 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
-     <link rel="stylesheet" href="{% static 'css/mdb.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/mdb.min.css' %}">
 </head>
 <body>
     <center>
-        <h1 class="btn btn-success">MDB5</h1>
+        <h1 class="btn btn-success">mdb5</h1>
     </center>
+    {% block body_block %}
+    {% endblock %}
+    
     <script src="{% static 'js/mdb.es.min.js' %}"></script>
+    
 </body>
 </html>

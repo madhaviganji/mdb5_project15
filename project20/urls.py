@@ -19,4 +19,6 @@ from app.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('mdb5/',mdb5,name='mdb5'),
-]
+    path('child/',child,name='child'),
+    
+    ]
